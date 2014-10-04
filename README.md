@@ -33,7 +33,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 ```js
 cleanTsExtends: {
   clean: {
-    src: './dist/concat.ts'
+    src: './dist/concat.js'
   }
 }
 ```
