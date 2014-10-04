@@ -7,6 +7,8 @@
 
 If you first compile all your TypeScript sources and then concatenate them into one file you might get quite a lot of `__extends` declarations. This plugin leaves the first one and removes all following.
 
+**Works only with non-minified JavaScript!**
+
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
@@ -25,8 +27,6 @@ grunt.loadNpmTasks('grunt-clean-ts-extends');
 
 ## cleanTsExtends task
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
-
-### Task must be used on _non-minified_ JavaScript!
 
 ### Usage Example
 
